@@ -8,7 +8,7 @@ package com.bootcampexcercise.module2.sample;
  */
 public class MainSample { // Class declaration
     // Execution always starts from main method
-    public static void main(String args[]) {
+    public static void main(String []args) {
         int i, j; // Variable declaration
         i = 5; // Assign Value to i
         j = 7; // Assign value to j
@@ -17,5 +17,10 @@ public class MainSample { // Class declaration
         System.out.println("Sum of i and j is" + i + j);
         System.out.println("Sum of i and j is" + (i + j));
         System.out.println("Sum of i and j is" + sum);
+
+        // Output of above 3 souts
+        /*Sum of i and j is57
+        Sum of i and j is12
+        Sum of i and j is12*/
     }
 }
