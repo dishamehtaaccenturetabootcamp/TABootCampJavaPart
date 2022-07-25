@@ -9,8 +9,8 @@ package com.bootcampexcercise.module2.sample;
 public class MainSample { // Class declaration
     // Execution always starts from main method
     public static void main(String []args) {
-        int i, j; // Variable declaration
-        i = 5; // Assign Value to i
+        int i=5;
+        int j; // Variable declaration
         j = 7; // Assign value to j
         int sum = i + j;
         // Print to show different between ammend and summation function
