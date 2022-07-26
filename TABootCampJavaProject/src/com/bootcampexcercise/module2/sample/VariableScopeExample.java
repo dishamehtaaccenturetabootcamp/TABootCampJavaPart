@@ -10,6 +10,7 @@ public class VariableScopeExample {
     static String classVar = "Class Variable Scope";
 
     public static void main(String[] args) {
+
         method1();
         method2();
         method3();
