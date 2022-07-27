@@ -19,6 +19,7 @@ public class VirtualMethodSample {
         rollCall(student);
     }
 
+    // Parent Instance defined in paramter of method
     public static void rollCall(Person_P temp) {
         temp.announce();
     }

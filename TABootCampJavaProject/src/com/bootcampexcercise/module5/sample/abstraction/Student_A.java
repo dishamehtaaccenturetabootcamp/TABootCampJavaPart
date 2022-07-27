@@ -37,6 +37,8 @@ public class Student_A extends Person_A {
     }
 
     public void setName(String name) {
+        int x = 8, y = 9;
+        System.out.println("Sum of two nos is " + (x - y));
         this.name = "<S>" + name;
     }
 

@@ -24,10 +24,10 @@ public class ReferenceCastingSample {
         System.out.println("**********************************************");
         tempStudent.setGrade(11);
 
-        System.out.println("Converted downcasting students attributes \n name: "
-                + tempStudent.getName() +
-                "\n students age: " + tempStudent.getAge()
-                + "\n school: " + tempStudent.getSchool() +
-                "\n grade: " + tempStudent.getGrade());
+                System.out.println("Converted downcasting students attributes \n name: "
+                        + tempStudent.getName() +
+                        "\n students age: " + tempStudent.getAge()
+                        + "\n school: " + tempStudent.getSchool() +
+                        "\n grade: " + tempStudent.getGrade());
     }
 }
