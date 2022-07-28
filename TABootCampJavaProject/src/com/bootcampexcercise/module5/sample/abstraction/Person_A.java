@@ -23,6 +23,7 @@ public abstract class Person_A {
     public abstract String getName();
 
     public abstract void setName(String name);
+    
 
 
 }

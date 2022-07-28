@@ -70,33 +70,33 @@ public class MyCalculatorTest extends TestCase {
 		double a = 5;
 		double b = 10;
 		//	Checks the product of two (2) positive values
-		assertEquals(50, (theCalculator.getProduct(a,b)));
-		assertEquals(50, (theCalculator.getProduct(b,a)));
+		assertEquals(50.0, (theCalculator.getProduct(a,b)));
+		assertEquals(50.0, (theCalculator.getProduct(b,a)));
 
 		a = -5;
 		b = 10;
 		//	Checks the product of a postive value and a negative value
-		assertEquals(-50, (theCalculator.getProduct(a,b)));
-		assertEquals(-50, (theCalculator.getProduct(b,a)));
+		assertEquals(-50.0, (theCalculator.getProduct(a,b)));
+		assertEquals(-50.0, (theCalculator.getProduct(b,a)));
 
 		a = -3;
 		b = -10;
 		//	Checks the product of two (2) negative values
-		assertEquals(30, (theCalculator.getProduct(a,b)));
-		assertEquals(30, (theCalculator.getProduct(b,a)));
+		assertEquals(30.0, (theCalculator.getProduct(a,b)));
+		assertEquals(30.0, (theCalculator.getProduct(b,a)));
 	}
 
 	public void testGetQuotient() {
 
 		double a = 10;	double b = 5;
 		//	Checks if b is lesser than a
-		assertEquals(2, (theCalculator.getQuotient(a,b)));
+		assertEquals(2.0, (theCalculator.getQuotient(a,b)));
 		//	Checks if b is greater than a
 		assertEquals(0.5, (theCalculator.getQuotient(b,a)));
 
 		a = 9;	b = -3;
 		//	Checks if positive value is divided with negative value
-		assertEquals(-3, (theCalculator.getQuotient(a,b)));
+		assertEquals(-3.0, (theCalculator.getQuotient(a,b)));
 		//	Checks if negative value is divided with positive value
 		assertEquals(-0.33, (theCalculator.getQuotient(b,a)));
 
