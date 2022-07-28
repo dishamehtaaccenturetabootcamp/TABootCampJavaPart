@@ -17,11 +17,11 @@ public class CustomExceptionSample {
         }
     }
 
-    public static void main(String arg[]) {
+    public static void main(String arg[])  {
         //Since CustomException is a checked exception, it's mandatory to call setAge method
 
         //2 - call setAge method with -1 as its parameter and surround this with a try catch block
-//			setAge(8);
+//        setAge(-8);
         // above line gives error without throws
 //        try {
 //            setAge(-9);

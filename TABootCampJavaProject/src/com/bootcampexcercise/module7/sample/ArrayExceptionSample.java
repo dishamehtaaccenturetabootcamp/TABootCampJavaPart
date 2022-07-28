@@ -10,7 +10,9 @@ public class ArrayExceptionSample {
 		//But the the loop below will run from 0 to 5.
 		//Last index is 4 so accessing scores[5] will cause an exception
 		//TODO: 1 - Create a for loop that runs from 0-5. Print elements of this array inside the loop.
-		
+		for (int i = 0; i < 5; i++) {
+			System.out.println(scores[i]);
+		}
 			
 		// The above loop is a logical error in the program which results in
 		// ArrayIndexOutOfBoundsException. This is an example of Unchecked Exception.

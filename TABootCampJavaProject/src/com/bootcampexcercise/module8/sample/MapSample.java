@@ -29,7 +29,6 @@ public class MapSample {
         System.out.println(map.get("2"));
         System.out.println(map.get("myName"));
 
-
         print(map);
 
     }
